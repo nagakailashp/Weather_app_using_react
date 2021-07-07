@@ -43,7 +43,7 @@ const City = (props) => {
     const { updateCity, fetchWeather } = props;
     return (
         <>
-        <Logo src={"../icon/perfect-day.svg"} />
+        <Logo src={"./icon/perfect-day.svg"} />
         <Lable>Find weather of your city</Lable>
         <Search onSubmit={fetchWeather}>
             <input onChange={(e) => updateCity(e.target.value)} placeholder="City"/>
