@@ -13,7 +13,7 @@ export const WeatherIcons = {
   "02n": "public/icon/cloudy-night.svg",
   "03d": "public/icon/cloudy.svg",
   "03n": "public/icon/cloudy.svg",
-  "04d": "public/icon/perfect-day.svg",
+  "04d": "Weather_app_using_react/public/icon//perfect-day.svg",
   "04n": "public/icon/cloudy-night.svg",
   "09d": "public/icon/rain.svg",
   "09n": "public/icon/rain-night.svg",
