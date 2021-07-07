@@ -1,9 +1,10 @@
 {
   "name": "weather_app",
-  "version": "0.1.0",
+  "homepage": "http://kailash2508.github.io/Weather_app_using_react",
   "private": true,
   "dependencies": {
     "axios": "^0.21.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -11,6 +12,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
